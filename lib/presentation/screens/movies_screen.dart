@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:the_scene/data/datasource/remote_datasource.dart';
-import 'package:the_scene/data/repository/movie_repo_impl.dart';
-import 'package:the_scene/domain/repository/base_movie_repo.dart';
-import 'package:the_scene/domain/usecases/get_now_playing_movies.dart';
-import 'package:the_scene/domain/usecases/get_top_rated_movies.dart';
 
 class MoviesScreen extends StatefulWidget {
   const MoviesScreen({super.key});
